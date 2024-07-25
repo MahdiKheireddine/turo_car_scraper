@@ -6,6 +6,7 @@ A Python web scraper for collecting car listings from Turo, extracting detailed 
 
 - **Scrapes car listings**: Collects car details such as name, rating, number of trips, location, prices, and discount.
 - **Visits individual car pages**: Extracts additional details such as options, description, and characteristics.
+- **Handles dynamic content**: Uses `selenium` to manage JavaScript-rendered content.
 - **Saves data to CSV**: Exports the collected data to a CSV file for further analysis.
 
 ## Requirements
@@ -13,13 +14,16 @@ A Python web scraper for collecting car listings from Turo, extracting detailed 
 - Python 3.7+
 - Install the required packages:
   ```bash
-  pip install -r requirements.txt
+  beautifulsoup4
+  undetected-chromedriver
+  selenium
+  argparse
 
 ## Usage
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/turo_car_scraper.git
+   git clone https://github.com/MahdiKheireddine/turo_car_scraper.git
    cd turo_car_scraper
    pip install -r requirements.txt
 
