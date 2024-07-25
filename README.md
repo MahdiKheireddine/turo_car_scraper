@@ -28,9 +28,9 @@ A Python web scraper for collecting car listings from Turo, extracting detailed 
     python main.py "location" "start_date" "end_date"
     
   Replace "location", "start_date", and "end_date" with your desired values. For example:
-    ```bash
-    python main.py "Paris" "07/25/2024" "07/30/2024"
-
+  ```bash
+    python main.py "paris" "07/27/2024" "07/30/2024"
+    
       
 
 
